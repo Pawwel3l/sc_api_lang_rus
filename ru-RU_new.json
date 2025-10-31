@@ -1,4 +1,4 @@
-﻿{
+{
   "Language": {
     "Name": "Русский"
   },
@@ -19,19 +19,19 @@
     "1": "Тип {0} - {1}, запрошенный - {2}"
   },
   "CommunityContentManager": {
-    "1": "Internet connection is unavailable.",
-    "2": "Cannot publish links in trial mode.",
-    "3": "Duplicate feedback.",
-    "4": "Loading Community Content cache failed.",
-    "5": "Saving Community Content cache failed."
+    "1": "Подключение к интернету недоступно.",
+    "2": "Нельзя публиковать ссылки в пробной версии.",
+    "3": "Повторный отзыв.",
+    "4": "Не удалось загрузить кеш контента сообщества.",
+    "5": "Не удалось сохранить кеш контента сообщества."
   },
   "ModsManager": {
-    "1": "Do you allow a mod to replace \"{1}\" with \"{2}\"? (Database Guid=\"{0}\")",
-    "2": "\nIf you choose Yes, other mods may not work properly; if you choose No, the mod may not work properly. Additionally, either choice may cause the entire game to malfunction.",
-    "3": "Change Enabled",
-    "4": "Change Disabled",
-    "5": "Mod Downloaded Successfully",
-    "6": "Do you want to switch to Mod Manage Screen to install manually?"
+    "1": "Разрешить моду заменить «{1}» на «{2}»? (Globally Unique ID=\"{0}\")",
+    "2": "\nЕсли нажать «Да», другие моды могут работать некорректно; если нажать «Нет», этот мод может работать некорректно. В любом случае игра может начать работать неправильно.",
+    "3": "Изменение включено",
+    "4": "Изменение отключено",
+    "5": "Мод успешно загружен",
+    "6": "Перейти к экрану управления модами для ручной установки?"
   },
   "AndroidSdCardExternalContentProvider": {
     "1": "Карта памяти"
@@ -128,13 +128,13 @@
     "11": "Перезагрузить изменённую конфигурацию?"
   },
   "MainMenuScreen": {
-    "1": "Failed to Get Announcement",
-    "2": "There is no announcement now.\nOr connecting to the server is failed.",
-    "3": "Текущая версия не требует обновлений",
-    "4": "Найдена новая версия: {0}\nТекущая версия: {1}\nХотите перейти на страницу загрузки API?",
+    "1": "Не удалось получить объявление",
+    "2": "Сейчас нет объявлений.\nЛибо не удалось подключиться к серверу.",
+    "3": "Установлена последняя версия",
+    "4": "Доступна новая версия: {0}\nТекущая версия: {1}\nХотите перейти на страницу загрузки API?",
     "5": "Перейти",
-    "6": "Получение обновлений...",
-    "8": "Переключиться на страницу публикации"
+    "6": "Проверка обновлений...",
+    "8": "Перейти на страницу публикации"
   },
   "SubsystemFurnitureBlockBehavior": {
     "0": "Превращение в мебель не поддерживается",
@@ -143,11 +143,12 @@
     "3": "Достигнуто ограничение количества моделей мебели"
   },
   "SubsystemEggBlockBehavior": {
-    "1": "Failed to spawn creature, check game log."
+    "1": "Не удалось заспавнить существо, проверьте игровой лог."
   },
   "SubsystemFireworksBlockBehavior": {
-    "1": "Happy New Year!",
-    "2": "--- Enjoy the fireworks ---"
+    "1": "С Новым годом!",
+"2": "--- Наслаждайтесь фейерверком ---"
+
   },
   "ExternalContentManager": {
     "1": "Название не введено",
@@ -209,11 +210,11 @@
     "3": "Требуется уровень {0}"
   },
   "BlocksTexturesManager": {
-    "1": "Could not find blocks texture \"{0}\".",
-    "2": "Could not load blocks texture \"{0}\". Reason: {1}.",
-    "3": "Unable to delete blocks texture \"{0}\"",
-    "4": "Blocks texture is larger than 65536x65536 pixels (size={0}x{1})",
-    "5": "Blocks texture does not have power-of-two size (size={0}x{1})"
+"1": "Не удалось найти текстуру блоков «{0}».",
+"2": "Не удалось загрузить текстуру блоков «{0}». Причина: {1}.",
+"3": "Невозможно удалить текстуру блоков «{0}».",
+"4": "Текстура блоков превышает размер 65536x65536 пикселей (размер={0}x{1})",
+"5": "Размер текстуры блоков не является степенью двойки (размер={0}x{1})"
   },
   "SubsystemCrossbowBlockBehavior": {
     "0": "Арбалет не натянут",
@@ -244,25 +245,27 @@
     "1": "Ошибка"
   },
   "LoadingScreen": {
-    "1": "Executing OnLoadingStart missions.",
-    "2": "Initializing TextureAtlasManager.",
-    "3": "Loading database.",
-    "4": "Initializing BlocksManager.",
-    "5": "Loading mod settings.",
-    "6": "Executing OnLoadingFinished mission."
+"1": "Выполнение события OnLoadingStart.",
+"2": "Инициализация TextureAtlasManager.",
+"3": "Загрузка базы данных.",
+"4": "Инициализация BlocksManager.",
+"5": "Загрузка настроек модов.",
+"6": "Выполнение события OnLoadingFinished."
   },
   "ModEntity": {
-    "1": "Loading .csv blocksdata files.",
-    "2": "Loading .xdb database files.",
-    "3": "Loading .clo clothes data files.",
-    "4": "Loading .cr crafting recipaedia files.",
-    "5": "Loading .js javascript files."
+"1": "Загрузка файлов blocksdata (.csv).",
+"2": "Загрузка файлов базы данных (.xdb).",
+"3": "Загрузка файлов данных одежды (.clo).",
+"4": "Загрузка файлов рецептов крафта (.cr).",
+"5": "Загрузка файлов JavaScript (.js)."
+
   },
   "SurvivalCraftModEntity": {
-    "1": "Loading blocksdata.",
-    "2": "Loading database.",
-    "3": "Loading crafting recipaedia.",
-    "4": "Loading clothes data."
+"1": "Загрузка blocksdata.",
+"2": "Загрузка базы данных.",
+"3": "Загрузка рецептов крафта.",
+"4": "Загрузка данных одежды."
+
   },
   "FurnitureDesign": {
     "1": "Ошибка названия",
@@ -317,24 +320,25 @@
     "2": "Построчно"
   },
   "ViewGameLogDialog": {
-    "1": "очист",
-    "2": "ошибк",
-    "3": "Заходите.",
-    "4": "увер",
-    "5": "отмен",
-    "6": "Загрузка в журнал...",
-    "7": "Загрузка завершена.",
-    "8": "Загрузка завершена.",
-    "9": "Ошибки в работе мира",
-    "10": "Пожалуйста, свяжитесь с разработчиком модуля и предоставьте журнал регистрации игр",
-    "11": "Мир загружен неправильно",
-    "12": "Ошибка генератора игрока",
-    "13": "Скопируй этот журнал",
-    "14": "The world files may be occupied by another program."
+"1": "Очистить",
+"2": "Ошибка",
+"3": "Войти",
+"4": "Уверены?",
+"5": "Отмена",
+"6": "Загрузка в журнал...",
+"7": "Загрузка завершена",
+"8": "Загрузка завершена",
+"9": "Ошибки мира",
+"10": "Пожалуйста, свяжитесь с разработчиком мода и предоставьте журнал игры",
+"11": "Мир загружен некорректно",
+"12": "Ошибка генератора игрока",
+"13": "Скопируйте этот журнал",
+"14": "Файлы мира могут быть заняты другой программой"
+
   },
   "MoreCommunityLinkDialog": {
-    "1": "No User",
-    "2": "Select Active User"
+"1": "Нет пользователя",
+"2": "Выберите активного пользователя"
   },
   "FurnitureDesignWidget": [
     "Спереди",
@@ -408,16 +412,16 @@
     "7": "Фиолетовый "
   },
   "AirBlock": {
-    "1": "Unknown Block"
+"1": "Неизвестный блок"
   },
   "SevenSegmentDisplayBlock": {
-    "1": "Make 7-segment displays from copper, glass and paint"
+"1": "Создавайте 7-сегментные дисплеи из меди, стекла и краски"
   },
   "PaintBucketBlock": {
-    "1": "Make {0} Paint"
+"1": "Приготовить {0} краски"
   },
   "PumpkinSoupBucketBlock": {
-    "1": "Cook pumpkin soup"
+"1": "Приготовить тыквенный суп"
   },
   "GameMenuDialog": {
     "1": "Устройство сочтено быстрым",
@@ -514,9 +518,9 @@
     "92": "Ещё",
     "93": "Мужчина",
     "94": "Женщина",
-    "96": "Length Of Year",
-    "97": "Season",
-    "98": "(fixed season)"
+    "96": "Длительность года",
+    "97": "Сезон",
+    "98": "(фиксированный сезон)"
   },
   "BlocksManager": {
     "1": "Нет {0}",
@@ -526,7 +530,7 @@
     "5": "Ошибка доступа к {0}",
     "6": "Ошибка загрузки ссылочного {0}",
     "Terrain": "Рельеф местности",
-    "Minerals": "Minerals",
+    "Minerals": "Руды",
     "Plants": "Растения",
     "Construction": "Строительство",
     "Items": "Предметы",
@@ -570,28 +574,28 @@
     "11": "Лучшее",
     "12": "Недавнее",
     "13": "Ошибка",
-    "14": "Star",
-    "15": "Add to Boutique",
-    "16": "Remove from Boutique",
-    "17": "Operation",
-    "18": "Please enter rating, the default value is 5.",
-    "19": "Add to Boutique Successfully:",
-    "20": "Operation Done",
-    "21": "Confirm Removing from Boutique?",
-    "22": "Remove from Boutique Successfully:",
-    "23": "Delete",
-    "24": "Publish",
-    "25": "Hide",
-    "26": "Confirm Deleting",
-    "27": "Delete Successfully:",
-    "28": "Publish Successfully:",
-    "29": "Hide Successfully:",
-    "30": "Not published",
-    "31": "ByRank",
-    "32": "ByTime",
-    "33": "ByBoutique",
-    "34": "ByHide",
-    "35": "Load more",
+"14": "Звезда",
+"15": "Добавить в подборку",
+"16": "Удалить из подборки",
+"17": "Действие",
+"18": "Введите рейтинг, значение по умолчанию — 5.",
+"19": "Успешно добавлено в подборку:",
+"20": "Операция выполнена",
+"21": "Подтвердить удаление из подборки?",
+"22": "Успешно удалено из подборки:",
+"23": "Удалить",
+"24": "Опубликовать",
+"25": "Скрыть",
+"26": "Подтвердить удаление",
+"27": "Удаление выполнено:",
+"28": "Публикация выполнена:",
+"29": "Скрытие выполнено:",
+"30": "Не опубликовано",
+"31": "По рейтингу",
+"32": "По времени",
+"33": "По подборке",
+"34": "По скрытию",
+"35": "Загрузить ещё",
     "Unknown": "Неизвестно",
     "Directory": "Папка",
     "World": "Мир",
@@ -604,16 +608,17 @@
     "Filter": "Отбор"
   },
   "OriginalCommunityContentScreen": {
-    "1": "Select Sort Order",
-    "2": "Select Items Filter",
-    "3": "Selected User's Items",
-    "4": "Top Ranked",
-    "5": "Most Recent",
-    "6": "Most Downloaded",
-    "7": "Largest",
-    "8": "Newest Version",
-    "9": "Oldest Version",
-    "10": "downloads"
+"1": "Выберите порядок сортировки",
+"2": "Выберите фильтр элементов",
+"3": "Элементы выбранного пользователя",
+"4": "Лучшие по рейтингу",
+"5": "Самые новые",
+"6": "Наиболее скачиваемые",
+"7": "Самые крупные",
+"8": "Новая версия",
+"9": "Старая версия",
+"10": "Загрузки"
+
   },
   "ComponentClothing": {
     "1": "Для ношения {1} требуется уровень {0}",
@@ -670,7 +675,7 @@
     "Game.FppCamera": "От первого лица",
     "Game.TppCamera": "От третьего лица",
     "Game.OrbitCamera": "Орбитально",
-    "Game.FixedCamera": "Неподвижно",
+    "Game.FixedCamera": "Фиксированно",
     "Game.DebugCamera": "Отладка"
   },
   "DigMethod": {
@@ -738,12 +743,12 @@
     "9": "Без ограничений",
     "10": "Большая дальность видимости",
     "11": "Игра может случайно завершиться при недостатке памяти для обработки расстояния видимости",
-    "12": "API",
-    "13": "Primary",
-    "14": "1 VSYNC",
-    "15": "2 VSYNC",
-    "16": "Stop Refreshing",
-    "17": "Every Frame"
+"12": "API",
+"13": "Основной",
+"14": "1 VSYNC",
+"15": "2 VSYNC",
+"16": "Остановить обновление",
+"17": "Каждый кадр"
   },
   "RecipaediaDescriptionScreen": {
     "1": "Да (вплоть до {0})",
@@ -834,8 +839,8 @@
     "8": "неизвестный нападавший",
     "9": "не в том месте не в то время",
     "10": "не повезло",
-    "11": "Digging with bare hands is slow, use a stick",
-    "12": "Use your {0} to dig this faster",
+"11": "Копать голыми руками медленно, используйте палку",
+"12": "Используйте ваш {0}, чтобы копать быстрее",
     "killed": "лишён(ена) жизни",
     "kicked": "пнут(а)",
     "stung": "ужален(а)",
@@ -889,7 +894,7 @@
     "4": "Недоступно",
     "5": "Доступно только в творчестве",
     "6": "Нормально",
-    "8": " days"
+"8": " дней"
   },
   "ComponentSickness": {
     "1": "Тошнота",
@@ -918,10 +923,10 @@
     "17": "Закат",
     "18": "Полночь",
     "19": "Отладка",
-    "20": "Precipitation Off",
-    "21": "Precipitation On",
-    "22": "Fog Off",
-    "23": "Fog On"
+"20": "Осадки выключены",
+"21": "Осадки включены",
+"22": "Туман выключен",
+"23": "Туман включен"
   },
   "ComponentFlu": {
     "1": "Чтобы не заболеть простудой, требуется согреться",
@@ -964,8 +969,8 @@
     "1": "Подтвердить?",
     "2": "Удаление",
     "3": "Подтвердить?",
-    "4": "Отмену",
-    "5": "Enter \"yes\" to continue"
+    "4": "Отмена",
+"5": "Нажмите «yes», чтобы продолжить"
   },
   "PlayScreen": {
     "1": "Предупреждение о несовместимости мода!",
@@ -978,11 +983,11 @@
     "8": "Мод отсутствует"
   },
   "JsInterface": {
-    "1": "There is already a script running.",
-    "2": "Empty request body.",
-    "3": "Invalid password.",
-    "4": "Only post method is supported.",
-    "5": "Load Init.js failed."
+"1": "Скрипт уже запущен.",
+"2": "Пустое тело запроса.",
+"3": "Неверный пароль.",
+"4": "Поддерживается только метод POST.",
+"5": "Не удалось загрузить Init.js."
   },
   "Usual": {
     "unknown": "Неизвестно",
@@ -1014,63 +1019,67 @@
     "1": "Вместо этого делаются деревянные грабли"
   },
   "GameLogSink": {
-    "1": "The log file may be occupied by another program, resulting in a failed load."
+"1": "Файл журнала может быть занят другой программой, из-за чего загрузка не удалась."
   },
   "BasePumpkinBlock": {
-    "1": "Pumpkin",
-    "2": "{0} Pumpkin",
-    "3": "{0} {1} Pumpkin",
-    "4": "Rotten",
-    "5": "Unripe"
+"1": "Тыква",
+"2": "{0} Тыква",
+"3": "{0} {1} Тыква",
+"4": "Гнилая",
+"5": "Недозрелая"
   },
   "CottonBlock": [
-    "Cotton",
-    "Wild Cotton"
+    "Хлопок",
+    "Дикий хлопок"
   ],
   "ArrowBlock": [
-    "Wooden Tip Arrow",
-    "Stone Tip Arrow",
-    "Iron Tip Arrow",
-    "Diamond Tip Arrow",
-    "Fire Arrow",
-    "Iron Bolt",
-    "Diamond Tip Iron Bolt",
-    "Explosive Bolt",
-    "Copper Tip Arrow"
+"Деревянная стрела",
+"Каменная стрела",
+"Железная стрела",
+"Алмазная стрела",
+"Огненная стрела",
+"Железный болт",
+"Алмазный болт",
+"Взрывной болт",
+"Медная стрела"
   ],
   "BulletBlock": [
-    "Musket Ball",
-    "Buckshot",
-    "Buckshot Ball"
+"Мушкетная пуля",
+"Дробь",
+"Дробинка"
+
   ],
   "PressurePlateBlock": [
-    "Wooden Pressure Plate",
-    "Stone Pressure Plate"
+"Деревянная нажимная плита",
+"Каменная нажимная плита"
+
   ],
   "PistonBlock": [
-    "Piston",
-    "Pulling Piston",
-    "Strict Pulling Piston"
+"Поршень",
+"Тяговый поршень",
+"Жёсткий тяговый поршень"
+
   ],
   "DeciduousLeavesBlock": [
-    "Summer ",
-    "Autumn ",
-    "Winter ",
-    "Spring "
+"Лето ",
+"Осень ",
+"Зима ",
+"Весна "
+
   ],
   "SubsystemSeasons": [
-    "Early Summer",
-    "Summer",
-    "Late Summer",
-    "Early Autumn",
-    "Autumn",
-    "Late Autumn",
-    "Early Winter",
-    "Winter",
-    "Late Winter",
-    "Early Spring",
-    "Spring",
-    "Late Spring"
+"Начало лета",
+"Лето",
+"Конец лета",
+"Начало осени",
+"Осень",
+"Конец осени",
+"Начало зимы",
+"Зима",
+"Конец зимы",
+"Начало весны",
+"Весна",
+"Конец весны"
   ],
   "Blocks": {
     "AirBlock:0": {
@@ -1844,7 +1853,7 @@
       "DisplayName": "Ведро",
       "Description": "Используется для переноса жидкостей, приготовления пищи и создания красок",
       "CRDescription:0": "Создаётся из медных слитков",
-      "CRDescription:1": "Empty the bucket"
+"CRDescription:1": "Опустошите ведро"
     },
     "WaterBucketBlock:0": {
       "DisplayName": "Ведро воды",
